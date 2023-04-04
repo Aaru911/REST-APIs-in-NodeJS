@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "879f5b16-06fd-45b0-9016-0be95750350c",
+		"name": "working",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All data Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rest-apis-in-node.onrender.com/",
+					"protocol": "https",
+					"host": [
+						"rest-apis-in-node",
+						"onrender",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add User Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rest-apis-in-node.onrender.com/add",
+					"protocol": "https",
+					"host": [
+						"rest-apis-in-node",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single user Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rest-apis-in-node.onrender.com/642beefa279ee322c7f46936",
+					"protocol": "https",
+					"host": [
+						"rest-apis-in-node",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"642beefa279ee322c7f46936"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Admin\",\n    \"email\":\"arayabhagatalibag@gmail.com\",\n    \"password\":\"Admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rest-apis-in-node.onrender.com/642beefa279ee322c7f46936",
+					"protocol": "https",
+					"host": [
+						"rest-apis-in-node",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"642beefa279ee322c7f46936"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://rest-apis-in-node.onrender.com/642beefa279ee322c7f46936",
+					"protocol": "https",
+					"host": [
+						"rest-apis-in-node",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"642beefa279ee322c7f46936"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
