@@ -8,6 +8,6 @@ This project is a great starting point for developers looking to learn how to bu
   
 # Config file 
 create .env file with data
-  PORT=
-  DB_URI=
+PORT=
+DB_URI=
  
